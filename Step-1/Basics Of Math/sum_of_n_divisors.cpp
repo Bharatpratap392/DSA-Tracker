@@ -15,7 +15,7 @@ void printalldivisors(int n)
 {
     cout << "print all the divisiors from 1 to n " << n << " " << "are:";
     vector<int> ls;
-    for (int i = 1; i <= sqrt(n); i++)
+    for (int i = 1; i <= sqrt(n); i++) // or for (int i = 1; i*i <=n; i++)
     {
         if (n % i == 0)
         {
