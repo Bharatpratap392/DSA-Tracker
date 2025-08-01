@@ -13,21 +13,22 @@ void sumofalldivisors(int n)
 // print all divisors
 void printalldivisors(int n)
 {
-    cout << "print all the divisiors from 1 to n " << n << "are:";
-    bool first = true;
-    for (int i = 1; i <= n; i++)
+    cout << "print all the divisiors from 1 to n " << n << " " << "are:";
+    vector<int> ls;
+    for (int i = 1; i <= sqrt(n); i++)
     {
         if (n % i == 0)
         {
-            if (!first)
+            ls.push_back(i);
+            if ((n / i) != i)
             {
-                cout << ",";
+                ls.push_back(n / i);
             }
-            cout << i;
-            first = false;
         }
     }
-    cout << endl;
+    sort(ls.begin(), ls.end());
+    for (auto it : ls)
+        cout << it << " ";
 }
 
 int main()
