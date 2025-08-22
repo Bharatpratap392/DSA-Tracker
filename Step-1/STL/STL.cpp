@@ -25,7 +25,7 @@ void learningVECTOR() // we are using vector b/c now let's say i have to put 6th
     cout << "Printing-Vector v3 =" << " " << v3[0] << endl; // only print first value
     cout << "Value after erase of v3= ";
     for (int i = 0; i < v3.size(); i++)
-    {                  // i want to print "Value after erase of v8= " once before the loop
+    {                  // i want to print "Value after erase of v3= " once before the loop
         cout << v3[i]; // i want use a loop to print each element
         if (i != v3.size() - 1)
         {
