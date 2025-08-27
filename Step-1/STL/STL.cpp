@@ -1,3 +1,4 @@
+//https://www.geeksforgeeks.org/cpp/cpp-stl-cheat-sheet/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -24,7 +25,7 @@ void learningVECTOR() // we are using vector b/c now let's say i have to put 6th
     cout << "Printing-Vector v3 =" << " " << v3[0] << endl; // only print first value
     cout << "Value after erase of v3= ";
     for (int i = 0; i < v3.size(); i++)
-    {                  // i want to print "Value after erase of v8= " once before the loop
+    {                  // i want to print "Value after erase of v3= " once before the loop
         cout << v3[i]; // i want use a loop to print each element
         if (i != v3.size() - 1)
         {
@@ -37,7 +38,7 @@ void learningVECTOR() // we are using vector b/c now let's say i have to put 6th
     vector<int> v5(2, 6);                                                   // it means 6 6,two times 6
     cout << "Printing-Vector v5 =" << " " << v5[0] << " " << v5[1] << endl; // prints 6(at 0 position),6(at 1 position)
     vector<int> v6(v5);                                                     // copy the values from v5
-    cout << "Printing-Vector v6 =" << " " << v6[1] << " " << v6[0] << endl; // copy the values from v5 so //prints 6(at 0 position),6(at 2 position)
+    cout << "Printing-Vector v6 =" << " " << v6[1] << " " << v6[0] << endl; // copy the values from v5 so //prints 6(at 0 position),6(at 1 position)
 }
 void learningITERATOR()
 {                                                          // iterator is a tool to access the value that is stored in any container
