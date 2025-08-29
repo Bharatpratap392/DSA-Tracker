@@ -1,7 +1,6 @@
 //1.sum of all 1 to n numbers
 #include <bits/stdc++.h>
 using namespace std;
-
 void learning_recursion(int i,int sum)
 {
     if(i<1){
@@ -28,7 +27,6 @@ void learning_recursion(int i,int f){
     learning_recursion(i-1,f*i);
     
 }
-
 int main() {
     int n;
     cin>>n;
