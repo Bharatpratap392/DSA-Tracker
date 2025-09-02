@@ -23,5 +23,4 @@ int main() {
         //fetch
         cout<<hash[number]<<endl;
     }
-    return 0;
 }
