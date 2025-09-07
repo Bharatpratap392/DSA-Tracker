@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//counting through ordered map
+//counting through ordered  map
 int main() {
     int n;
     cin>>n;

@@ -41,3 +41,12 @@ output is :-
 2
 0
 note:-and in ARRAY you can only allocate 10^6 inside main and more than that you should assign it globally*/
+/*
+hashing are of three types
+1.divison method(it is only required)
+2.folding method
+3.mid square method
+
+how does divison method works:-
+just read the article from the resource
+*/
