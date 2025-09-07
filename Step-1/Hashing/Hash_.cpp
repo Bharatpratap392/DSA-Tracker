@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//for calculating repetation of number
 int main() {
     int n;
     cin >> n;
@@ -24,3 +24,20 @@ int main() {
     }
     return 0;
 }
+/*
+input values are 
+5
+1 3 2 1 3
+5
+1 
+4 
+2 
+3 
+12 
+output is :-
+2
+0
+1
+2
+0
+note:-and in array you can only allocate 10^6 inside main and more than that you should assign it globally*/
