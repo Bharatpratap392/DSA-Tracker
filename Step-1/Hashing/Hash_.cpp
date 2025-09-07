@@ -40,4 +40,4 @@ output is :-
 1
 2
 0
-note:-and in array you can only allocate 10^6 inside main and more than that you should assign it globally*/
+note:-and in ARRAY you can only allocate 10^6 inside main and more than that you should assign it globally*/
