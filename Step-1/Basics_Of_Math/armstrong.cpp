@@ -5,10 +5,8 @@ int main()
 {
     int n;
     cin >> n;
-
     int dup = n; // here is just store the duplicate values of original
     int sum = 0; // This variable will store the sum of the cubes of the digits of the number.
-
     while (n > 0) // This loop runs until all digits are processed.
     {
         int digit = n % 10;                  // extract the last digit For example, if n = 153, then digit = 3.

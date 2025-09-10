@@ -19,7 +19,6 @@ void printprimenumbers(int n)
     else
         cout << "it's not";
 }
-
 int main()
 {
     int n;
