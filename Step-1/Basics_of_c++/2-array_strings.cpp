@@ -3,10 +3,14 @@ using namespace std;
 
 void learningARRAY()
 {
-    int arr[6];                                                      // creating an array of size 6, index from 0 to 5 put 6 random values
-    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5]; // taking input one by one in each index
-    arr[5] -= 10;                                                    // we can also manipulate array value like subtracting 10 from the last element
-    cout << "Printing-Array" << " " << arr[5] << endl;               // just printing the last element
+    int arr[6];
+    // creating an array of size 6, index from 0 to 5 put 6 random values
+    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4] >> arr[5];
+    // taking input one by one in each index
+    arr[5] -= 10;
+    // we can also manipulate array value like subtracting 10 from the last element
+    cout << "Printing-Array" << " " << arr[5] << endl;
+    // just printing the last element
 }
 
 void learningSTRING()

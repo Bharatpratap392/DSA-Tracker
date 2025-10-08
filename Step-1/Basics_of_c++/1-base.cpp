@@ -28,28 +28,23 @@ void dataTypesAndVariables()
 void operatorExamples()
 {
     int a = 10, b = 3;
-
     // Arithmetic Operators
     cout << "Sum: " << a + b << endl;
     cout << "Difference: " << a - b << endl;
     cout << "Product: " << a * b << endl;
     cout << "Quotient: " << a / b << endl;
     cout << "Remainder: " << a % b << endl;
-
     // Assignment Operators
     a += 5; // a = a + 5
     cout << "Updated a: " << a << endl;
-
     // Comparison Operators
     cout << "a == b: " << (a == b) << endl;
     cout << "a > b: " << (a > b) << endl;
-
     // Logical Operators
     bool x = true, y = false;
     cout << "x && y: " << (x && y) << endl;
     cout << "x || y: " << (x || y) << endl;
     cout << "!x: " << (!x) << endl;
-
     // Bitwise Operators
     cout << "a & b: " << (a & b) << endl;
     cout << "a | b: " << (a | b) << endl;
@@ -127,7 +122,7 @@ void loopExamples()
         cout << i << " ";
         i++;
     }
-    cout << endl;
+    cout << endl; 
 
     cout << "--- DO WHILE LOOP ---" << endl;
     i = 1;
@@ -166,11 +161,9 @@ void passByReference(string &s)
 void arrayExample()
 {
     int arr[5];
-
     cout << "Enter 5 integers:" << endl;
     for (int i = 0; i < 5; i++)
         cin >> arr[i];
-
     cout << "Array contents: ";
     for (int i = 0; i < 5; i++)
         cout << arr[i] << " ";
@@ -196,38 +189,38 @@ void maxMinExample()
 
 int main()
 {
-    cout << "\n🔹 Data Types and Variables\n";
+    cout << "\n Data Types and Variables\n";
     dataTypesAndVariables();
 
-    cout << "\n🔹 Operators\n";
+    cout << "\n Operators\n";
     operatorExamples();
 
-    cout << "\n🔹 Type Conversion\n";
+    cout << "\n Type Conversion\n";
     typeConversion();
 
-    cout << "\n🔹 If-Else Condition\n";
+    cout << "\n If-Else Condition\n";
     ifElseExample();
 
-    cout << "\n🔹 Switch Case\n";
+    cout << "\n Switch Case\n";
     switchExample();
 
-    cout << "\n🔹 Loops (For, While, Do-While)\n";
+    cout << "\n Loops (For, While, Do-While)\n";
     loopExamples();
 
-    cout << "\n🔹 Function Call (Pass by Value)\n";
+    cout << "\n Function Call (Pass by Value)\n";
     int val = 10;
     passByValue(val);
     cout << "Outside function x: " << val << endl;
 
-    cout << "\n🔹 Function Call (Pass by Reference)\n";
+    cout << "\n Function Call (Pass by Reference)\n";
     string s = "sharat";
     passByReference(s);
     cout << "Outside function: " << s << endl;
 
-    cout << "\n🔹 Arrays\n";
+    cout << "\n Arrays\n";
     arrayExample();
 
-    cout << "\n🔹 Maximum of Two Numbers\n";
+    cout << "\n Maximum of Two Numbers\n";
     maxMinExample();
 
     return 0;
