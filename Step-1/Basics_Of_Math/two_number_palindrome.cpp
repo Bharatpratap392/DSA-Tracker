@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int a;int b;
     cin>>a>>b;
-    if(a<0,b<0){
+    if(a<0||b<0){
         cout<<false;
     }
     int c=a+b;
