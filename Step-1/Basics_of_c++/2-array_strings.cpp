@@ -12,7 +12,11 @@ void learningARRAY()
     cout << "Printing-Array" << " " << arr[5] << endl;
     // just printing the last element
 }
-
+void learning2darray(){
+    int arr[2][5];
+    arr[1][4]=86;
+    cout<<arr[1][4]<<endl;
+}
 void learningSTRING()
 {
     string s = "BHARAT";                           // initialized a string named 's'
@@ -25,4 +29,5 @@ int main()
 {
     learningARRAY();
     learningSTRING();
+    learning2darray();
 }
